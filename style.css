@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #222;
+  color: #fff;
+}
+
+
+#full-width {
+  width: 100%;
+  background: #55AD36;
+  margin-top: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#max-width {
+  max-width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 30px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.bets-btn {
+  display: inline-block;
+  background: #222;
+  padding: 10px 16px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.5em;
+  transition: .2s;
+}
+
+.bets-btn:hover {
+  background: #eeee;
+  color: #222;
+}
+
+.primary-btn {
+  display: inline-block;
+  color: #fff;
+  margin: 10px 0;
+  background-color: #55AD36;
+  border: 2px solid #55AD36;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-weight: 400;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #225210;
+}
+
+.secondary-btn {
+  display: inline-block;
+  color: #fff;
+  margin: 10px 0;
+  background-color: #222;
+  border: 2px solid #55AD36;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-weight: 400;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  background-color: #225210;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  max-width: 1250px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+.logo {
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 0.9em;
+}
+
+.menu-list {
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+}
+
+.menu-list li {
+  margin: 5px 0;
+  padding: 10px 15px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70vh;
+  margin: 10px;
+}
+
+.header-img img {
+  max-width: 100%;
+}
+
+.offer {
+  text-align: center;
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 24%;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background: #55AD36;
+  border-radius: 5px;
+}
+
+.icon img {
+  padding: 10px;
+}
+
+.how {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.how-copy {
+  width: 50%;
+}
+
+.how-steps {
+  width: 50%;
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #333;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px 15px;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.num {
+  display: inline-block;
+  background: #55AD36;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.get-bets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.get-bets h2 .emoji {
+  font-size: 1.5em;
+}
+
+.accuracy {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.accuracy-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.card h4 {
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.stat {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.testimionals {
+  margin-top: 100px;
+}
+
+.testimionals h2 {
+  text-align: center;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+
+.testimonial img {
+  max-width: 300px;
+}
+
+
+footer {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-btns a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #55AD36;
+  margin-left: 10px;
+}
+
+.regulamin {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.regulamin ul {
+  list-style: none;
+}
+
+
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column-reverse;
+    justify-content: center;
+    order: 1;
+  }
+
+  .header-copy {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .card {
+    width: 48%;
+  }
+
+  .how {
+    justify-content: center;
+
+  }
+
+  .how-copy {
+    width: 100%;
+  }
+
+  .how-steps {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 890px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 710px) {
+  .get-bets {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bets-btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .testimonial img {
+    max-width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-btns {
+    margin-top: 10px;
+  }
+}
